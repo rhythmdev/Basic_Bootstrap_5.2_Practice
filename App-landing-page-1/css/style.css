@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242122;
+}
+/* navbar area */
+.download-btn{
+    background-color: #6C63FF;
+    padding: 0.5rem;
+    border-radius: 2.5rem;
+    text-decoration: none;
+}
+.navbar-nav, .nav-item, .nav-link{
+    padding: 5px;
+}
+.navbar-brand{
+    font-family: 'Original Surfer', cursive; 
+    font-size: 1.5rem;
+}
+.logo{
+    color: #6C63FF;
+}
+.display-3{
+    letter-spacing: 3px;
+}
+.hero-img{
+    height: 30rem;
+    width: 40rem;
+   
+
+}
+
+.btn-1{
+    background-color: #6C63FF;
+    font-weight: 700;
+    padding: 0.8rem;
+    color: #fff;
+}
+.btn-1:hover{
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: whitesmoke;
+}
+.btn-2{
+    color: #6C63FF;
+    padding: 0.7rem;
+}
+.btn-2:hover{
+    /* border: 1px solid whitesmoke; */
+    border-radius: 50%;
+    color: whitesmoke;
+}
+
+/* end of navbar area */
+/* animation */
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+    .fadeInLeft {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes fadeInLeft {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
+        @keyframes fadeInLeft {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
